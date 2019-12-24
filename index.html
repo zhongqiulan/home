@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=device-width,inital-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="Keywords" content="垂直导航代码跟随页面" />
+    <meta name="Description" content="垂直导航代码跟随页面" />
+    <meta name="renderer" content="webkit">
+    <title>垂直导航代码跟随页面</title>
+    <link href="/favicon.ico" rel="shortcut icon">
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" charset="utf-8">
+
+    <script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="js/prefixfree.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--IE兼职性-->
+
+
+
+    <link href="css/mystyle.css" type="text/css" rel="stylesheet" />
+
+    <!--menu-->
+    <link href="css/jquery-accordion-menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-accordion-menu.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery("#jquery-accordion-menu").jqueryAccordionMenu();
+
+        });
+
+        $(function() {
+            //顶部导航切换
+            $("#demo-list li").click(function() {
+                $("#demo-list li.active").removeClass("active")
+                $(this).addClass("active");
+            })
+        })
+    </script>
+    <!--menu-->
+
+    <!-- 方法1调用的文件 -->
+    <script type="text/javascript" src="js/float_zxx.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+
+    <div class="header w1000">
+
+
+
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#" class="tit">首页</a>
+                </li>
+                <li>
+                    <a href="#" class="tit">通法简介</a>
+                    <div class="subnav">
+                        <a href="#">院情简介</a>
+                        <a href="#">机构设置</a>
+                        <a href="#">规章制度</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="tit">法院信息</a>
+                    <div class="subnav">
+                        <a href="#">院务通知</a>
+                        <a href="#">通法信息</a>
+                        <a href="#">政工简报</a>
+                        <a href="#">图片新闻</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="tit">法院审判</a>
+                    <div class="subnav">
+                        <a href="#">审判系统</a>
+                        <a href="#">审判工作</a>
+                        <a href="#">审判管理</a>
+                        <a href="#">审判查询</a>
+                        <a href="#">诉讼服务</a>
+                        <a href="#">调研宣传</a>
+                        <a href="#">领导决策</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="tit">行政管理</a>
+                    <div class="subnav">
+                        <a href="#">司法行政</a>
+                        <a href="#">司法统计</a>
+                        <a href="#">财务管理</a>
+                        <a href="#">档案管理</a>
+                        <a href="#">保密工作</a>
+                        <a href="#">警务车务</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="tit">法宣建设</a>
+                    <div class="subnav">
+                        <a href="#">党务廉政</a>
+                        <a href="#">机关事务</a>
+                        <a href="#">政工园地</a>
+                        <a href="#">纪检监察</a>
+                        <a href="#">信访督办</a>
+                        <a href="#">庭室窗口</a>
+                        <a href="#">法院文化</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="tit">科技强院</a>
+                    <div class="subnav">
+                        <a href="#">智慧云</a>
+                        <a href="#">信息球</a>
+                        <a href="#">信息化工作</a>
+                        <a href="#">视频园地</a>
+                        <a href="#">下载中心</a>
+                        <a href="#">技术支持</a>
+                        <a href="#">运河法苑</a>
+                        <a href="#">通法年鉴</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="tit">业务平台</a>
+
+                </li>
+                <li>
+                    <a href="#" class="tit">文化长廊</a>
+
+
+
+                </li>
+                <li class="last">
+                    <a href="#" class="tit">日常工具</a>
+                    <div class="sunnav-pro2">
+                        <ul class="box">
+                            <li>
+                                <a href="#"><img src="images/iso_icon_01.png" alt="" class="fl" width="50" height="50">
+                                    <p>在线菜谱</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/iso_icon_02.png" alt="" class="fl" width="50" height="50">
+                                    <p>计 算 器</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/iso_icon_03.png" alt="" class="fl" width="50" height="50">
+                                    <p>在线调查</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/iso_icon_04.png" alt="" class="fl" width="50" height="50">
+                                    <p>天气预报</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/iso_icon_05.png" alt="" class="fl" width="50" height="50">
+                                    <p>交通限行</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/iso_icon_06.png" alt="" class="fl" width="50" height="50">
+                                    <p>日常工具</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/iso_icon_07.png" alt="" class="fl" width="50" height="50">
+                                    <p>专线电话</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/iso_icon_08.png" alt="" class="fl" width="50" height="50">
+                                    <p>生肖运势</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/iso_icon_01.png" alt="" class="fl" width="50" height="50">
+                                    <p>生日祝福</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/iso_icon_01.png" alt="" class="fl" width="50" height="50">
+                                    <p>文印中心</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+
+
+            </ul>
+        </div>
+        <!--nav end-->
+    </div>
+    <!--header end-->
+
+
+
+    <!--mainBanner-->
+
+    <div class="site_slider site_slider_intrude" id="new_vs_focus">
+        <div class="slider_inner">
+            <a class="slider_item in" target="_blank" href="#" style="background-color: #bccef2;background-image: url(images/mainBanner_1920_500_new_01.jpg)"></a>
+            <a class="slider_item out" target="_blank" href="http://v.qq.com/rgwnyaq.htm" style="background-color: #eef0ed;background-image: url(mainBanner_1920_500_new_02.jpg)"></a>
+        </div>
+        <div class="slider_nav">
+            <a href="#" class="nav_link current" data-bgcolor="#e6d7b0" data-navcolor="深色" data-bgimage="images/mainBanner_1920_500_new_01.jpg">开展“两学一做”教育，实现伟大中国梦</a>
+            <a href="#" class="nav_link" data-bgcolor="#eef0ed" data-navcolor="深色" data-bgimage="images/mainBanner_1920_500_new_02.jpg">贯彻落实十八大精神 13亿追梦人实干兴邦</a>
+            <a href="#" class="nav_link" data-bgcolor="#dae4ed" data-navcolor="深色" data-bgimage="images/mainBanner_1920_500_new_03.jpg">我的中国梦-中华民族伟大复苏</a>
+            <a href="#" class="nav_link" data-bgcolor="#e6eaed" data-navcolor="深色" data-bgimage="images/mainBanner_1920_500_new_04.jpg">正德厚生 臻于至善 廉洁文化 中华美德</a>
+            <a href="#" class="nav_link" data-bgcolor="#e6eaed" data-navcolor="深色" data-bgimage="images/mainBanner_1920_500_new_05.jpg">“一带一路”是促进共同发展、实现共同繁荣的合作共赢之路</a>
+            <a href="#" class="nav_link" data-bgcolor="#d3cae5" data-navcolor="深色" data-bgimage="images/mainBanner_1920_500_new_06.jpg">“十三五”规划聚焦通州副中心建设</a>
+        </div>
+        <div class="slider_mask">
+            <div class="slider_mask_inner"></div>
+        </div>
+    </div>
+
+    <!--mainBanner end-->
+
+
+
+
+
+
+
+    <div class="site_container">
+        <div class="container_inner" id="container_inner">
+
+            <div class="wrapper">
+                <!--索引分区类型-->
+                <div class="mod_filter">
+
+
+
+
+                    <div class="category_1">
+                        <div class="left">
+
+
+
+
+
+
+
+
+
+
+
+
+                            <!-- 这是方法1所调用的办法　左边 begin-->
+                            <div id="fixed">
+
+                                <div class="content">
+
+                                    <div id="jquery-accordion-menu" class="jquery-accordion-menu red">
+                                        <div class="jquery-accordion-menu-header"><i class="fa fa-home"></i>&nbsp;导航分类</div>
+                                        <!--id="form"-->
+                                        <ul id="demo-list">
+
+                                            <li>
+                                                <a href="#"><i class="fa fa-cog"></i>通法简介</a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">院情简介</a></li>
+                                                    <li><a href="#">机构设置</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-suitcase"></i>法院信息</a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">院务通知</a></li>
+                                                    <li><a href="#">通法信息</a></li>
+                                                    <li><a href="#">政工简报</a></li>
+                                                    <li><a href="#">图片新闻</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-suitcase"></i>法院审判</a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">审判系统</a></li>
+                                                    <li><a href="#">审判工作</a></li>
+                                                    <li><a href="#">审判管理</a></li>
+                                                    <li><a href="#">审判查询</a></li>
+                                                    <li><a href="#">诉讼服务</a></li>
+                                                    <li><a href="#">调研宣传</a></li>
+                                                    <li><a href="#">领导决策</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-suitcase"></i>行政管理</a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">司法行政</a></li>
+                                                    <li><a href="#">司法统计</a></li>
+                                                    <li><a href="#">财务管理</a></li>
+                                                    <li><a href="#">档案管理</a></li>
+                                                    <li><a href="#">保密工作</a></li>
+                                                    <li><a href="#">警务车务</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-suitcase"></i>法宣建设</a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">党务廉政</a></li>
+                                                    <li><a href="#">机关事务</a></li>
+                                                    <li><a href="#">政工园地</a></li>
+                                                    <li><a href="#">纪检监察</a></li>
+                                                    <li><a href="#">信访督办</a></li>
+                                                    <li><a href="#">庭室窗口</a></li>
+                                                    <li><a href="#">法院文化</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-suitcase"></i>科技强院</a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">智慧云</a></li>
+                                                    <li><a href="#">信息球</a></li>
+                                                    <li><a href="#">信息化工作</a></li>
+                                                    <li><a href="#">视频园地</a></li>
+                                                    <li><a href="#">下载中心</a></li>
+                                                    <li><a href="#">技术支持</a></li>
+                                                    <li><a href="#">运河法苑</a></li>
+                                                    <li><a href="#">通法年鉴</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-cog"></i>业务平台</a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">审判业务平台</a>
+                                                        <ul class="submenu">
+                                                            <li><a href="#">立案系统</a></li>
+                                                            <li><a href="#">审判系统</a></li>
+                                                            <li><a href="#">领导决策</a></li>
+                                                            <li><a href="#">审判查询</a></li>
+                                                            <li><a href="#">执行联运</a></li>
+                                                            <li><a href="#">审判管理</a></li>
+                                                            <li><a href="#">档案系统</a></li>
+                                                            <li><a href="#">本院电话</a></li>
+                                                            <li><a href="#">高院电话</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">办公辅助平台</a>
+                                                        <ul class="submenu">
+                                                            <li><a href="#">电子邮箱</a></li>
+                                                            <li><a href="#">文印中心</a></li>
+                                                            <li><a href="#">带值班表</a></li>
+                                                            <li><a href="#">信息发布</a></li>
+                                                            <li><a href="#">人民陪审</a></li>
+                                                            <li><a href="#">司法专邮</a></li>
+                                                            <li><a href="#">电话录音</a></li>
+                                                            <li><a href="#">办案助手</a></li>
+                                                            <li><a href="#">文书纠错</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">日常工具</a>
+                                                        <ul class="submenu">
+                                                            <li><a href="#">在线菜谱</a></li>
+                                                            <li><a href="#">计算器</a></li>
+                                                            <li><a href="#">在线调查</a></li>
+                                                            <li><a href="#">天气预报</a></li>
+                                                            <li><a href="#">交通限行</a></li>
+                                                            <li><a href="#">日常工具</a></li>
+                                                            <li><a href="#">专线电话</a></li>
+                                                            <li><a href="#">生肖运势</a></li>
+                                                            <li><a href="#">生日祝福</a></li>
+                                                            <li><a href="#">文印中心</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-suitcase"></i>文化长廊</a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">法制春秋</a></li>
+                                                    <li><a href="#">院史览鉴</a></li>
+                                                    <li><a href="#">荣誉殿堂</a></li>
+                                                    <li><a href="#">红旗飘飘</a></li>
+                                                    <li><a href="#">干警风采</a></li>
+                                                    <li><a href="#">运河清风</a></li>
+                                                    <li><a href="#">审判工作</a></li>
+                                                    <li><a href="#">司法保障</a></li>
+                                                    <li><a href="#">法院文化</a></li>
+                                                    <li><a href="#">文体集萃</a></li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                        <div class="jquery-accordion-menu-footer">
+                                            <a href="#" class="returnindex"><i class="fa fa-home"></i>&nbsp;返回首页</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <script type="text/javascript">
+                                    (function($) {
+                                        $.expr[":"].Contains = function(a, i, m) {
+                                            return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
+                                        };
+
+                                        function filterList(header, list) {
+                                            //@header 头部元素
+                                            //@list 无需列表
+                                            //创建一个搜素表单
+                                            var form = $("<form>").attr({
+                                                    "class": "filterform",
+                                                    action: "#"
+                                                }),
+                                                input = $("<input>").attr({
+                                                    "class": "filterinput",
+                                                    type: "text"
+                                                });
+                                            $(form).append(input).appendTo(header);
+                                            $(input).change(function() {
+                                                var filter = $(this).val();
+                                                if (filter) {
+                                                    $matches = $(list).find("a:Contains(" + filter + ")").parent();
+                                                    $("li", list).not($matches).slideUp();
+                                                    $matches.slideDown();
+                                                } else {
+                                                    $(list).find("li").slideDown();
+                                                }
+                                                return false;
+                                            }).keyup(function() {
+                                                $(this).change();
+                                            });
+                                        }
+                                        $(function() {
+                                            filterList($("#form"), $("#demo-list"));
+                                        });
+                                    })(jQuery);
+                                </script>
+
+                            </div>
+                            <script type="text/javascript">
+                                $("#fixed").smartFloat();
+                            </script>
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                        <div class="right">
+
+
+                            <!--四通知 开始-->
+                            <div class="taboxMore1">
+                                <div class="hd">
+                                    院务通知
+                                </div>
+                                <div class="bd">
+                                    <!--院务通知一行 开始-->
+
+                                    <ul>
+                                        <li>
+                                            <a href="#" target="_blank">我院调研认为相关部门不配合是执行中适用限制出境措施成功率低的主要原因
+					   <span class="time">[11-04]</span>
+					   <span class="badge">12</span>
+					   </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">我院圆满执结一起影响市级重点道路改建项目的房屋拆迁案取得良好效果
+					   <span class="time">[11-03]</span>
+					   <span class="badge">31</span>                       					   
+					   </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">我院执行二庭两日内执结一起曾多次信访的工伤保险纠纷案件					   
+                       <span class="time">[11-02]</span>
+					   <span class="badge">85</span>
+					   </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank">我院调研发现公证债权文书案件执行过程中存在“四难”
+                       <span class="time">[10-22]</span>
+					   <span class="badge">66</span>
+					   </a>
+                                        </li>
+                                        <li class="last">
+                                            <a href="#" target="_blank">民一庭调研医疗纠纷鉴定意见处理中易出现的问题并提出对策					   
+                       <span class="time">[09-23]</span>
+					   <span class="badge">9</span>
+					   </a>
+                                        </li>
+                                    </ul>
+                                    <!--院务通知一行 结束-->
+                                </div>
+                                <!--bd-->
+                            </div>
+                            <!--taboxMore-->
+
+                            <!--四通知 结束-->
+
+
+
+                        </div>
+                        <!--category_1 right-->
+                    </div>
+                    <!--category_1-->
+
+
+
+
+
+                    <div style="clear: both;"></div>
+
+
+
+
+
+                </div>
+                <!--mod_filter-->
+            </div>
+            <!--wrapper-->
+
+        </div>
+        <!--container inner-->
+    </div>
+    <!--site_container-->
+
+
+
+
+
+
+
+
+
+    <div class="website-bottom">
+        Copyright　2017　北京市通州区人民法院版权所有
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+    <!--下拉js-->
+
+
+</body>
+
+</html>
